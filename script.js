@@ -14,7 +14,9 @@ var dayInputTextEl = $("input");
 currentDayEl.text(dayTime + ", " + dateTime);
 
 var savedNotes = JSON.parse(localStorage.getItem("notes"));
-hourNote = savedNotes;
+if (savedNotes){
+    hourNote = savedNotes;
+}
 
 for (i=0;i<milHour.length;i++){
     // Hour
