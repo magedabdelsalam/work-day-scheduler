@@ -37,11 +37,11 @@ for (i=0;i<milHour.length;i++){
     rowDivEl.append(inputTextEl);
 
     if (milHour[i] === militaryTime) {
-        inputTextEl.attr("style","background: yellow;");
+        inputTextEl.attr("style","background: lightyellow;");
     } else if (milHour[i] < militaryTime) {
-        inputTextEl.attr("style","background: red;");
+        inputTextEl.attr("style","background: lightred;");
     } else if(milHour[i] > militaryTime) {
-        inputTextEl.attr("style","background: green;");
+        inputTextEl.attr("style","background: lightgreen;");
     };
 
     inputTextEl.val(hourNote[i]);
