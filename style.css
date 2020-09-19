@@ -1,42 +1,37 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
 }
+.header {
+  text-align: center;
+  padding-top: 20px;
+}
+.container{
+  background:#eee;
+  border-radius: 20px;
+}
+.row {
+  border: 2px solid white;
+}
 .row p{
-  font-size:24px
+  font-size:20px;
+  margin:20px 0;
+  text-align: center;
+  align-self: center;
 }
-
-input[type=text]{
+textarea,input{
   background: transparent;
+  color: #222222;
+  padding: 15px 10px;
+  height: 100px;
   border: none;
   resize: none;
-  color: #000000;
-  padding: 10px;
-  border:none;
-  border-radius: 2px;
-}
-input[type=submit]{
-  background: #eee;
-  border: none;
-  resize: none;
-  color: #000000;
-  padding: 10px;
-  border:none;
-  border-radius: 2px;
+  overflow: hidden;
 }
 input[type=submit]:hover{
-  background: #ddd;
+  opacity:0.6;
 }
 
-.jumbotron {
-  background: transparent;
-  text-align: center;
-  padding: 1em 0 0 0;
-}
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
+
 
